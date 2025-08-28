@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
-# setch - A utility for retrieving system information on Linux systems
+# setch - A utility for retrieving system information on Linux
 # Copyright (C) 2025 mentiferous
 #
 # This program is free software: you can redistribute it and/or modify

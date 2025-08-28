@@ -1,5 +1,5 @@
 # Ignore bytecode-cache folders
 __pycache__/
 
-#
+# Ignore distribution folder
 dist/

@@ -1,12 +1,12 @@
 [build-system]
-requires = ["hatchling >= 1.26"]
+requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
 name = "setch"
 version = "1.0.0"
 requires-python = ">=3.10"
-description = "A utility for retrieving system information on Linux systems"
+description = "A utility for retrieving system information on Linux"
 readme = "README.md"
 license = "GPL-3.0-or-later"
 keywords = ["Linux", "Utility", "Information"]
