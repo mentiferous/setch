@@ -1,6 +1,7 @@
-# setch
-
-A utility for retrieving system information on Linux
+<div align="center">
+<h1>setch</h1><br>
+<p>A utility for retrieving system information on Linux</p>
+</div>
 
 ## Installation
 
