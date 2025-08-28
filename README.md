@@ -1,6 +1,7 @@
 <div align="center">
 <h1>setch</h1>
 <p>A utility for retrieving system information on Linux</p>
+<img src="assets/images/setch.png">
 </div>
 
 ## Installation
