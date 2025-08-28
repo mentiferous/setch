@@ -9,7 +9,7 @@
 ### Prerequisites
 
 - [git](https://git-scm.com/downloads/linux)
-- [Python](https://www.python.org/downloads/source)
+- Python 3.10 or later
 
 ```sh
 git clone https://github.com/mentiferous/setch.git
