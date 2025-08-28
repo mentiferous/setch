@@ -1,5 +1,5 @@
 <div align="center">
-<h1>setch</h1><br>
+<h1>setch</h1>
 <p>A utility for retrieving system information on Linux</p>
 </div>
 
