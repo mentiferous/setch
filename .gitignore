@@ -1,2 +1,5 @@
 # Ignore bytecode-cache folders
 __pycache__/
+
+#
+dist/
