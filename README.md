@@ -15,7 +15,7 @@ python -m pip install setch-py
 ## Usage
 
 ```sh
-python -m setch-py
+python -m setch
 ```
 
 ## License
