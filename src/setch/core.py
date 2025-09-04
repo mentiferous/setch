@@ -25,13 +25,12 @@ from setch.sys.info import KERNEL_VER, OS_ARCH, USER_HOST, get_uptime
 
 SETCH = rf"""
     .--.
-   |o_o |        {OS_ARCH}
+   |o_o |      {OS_ARCH}
    |\_/ |
-  //   \ \       {KERNEL_VER}
+  //   \ \     {KERNEL_VER}
  (|     | )
-/`\_   _/`\      {get_uptime()}
+/`\_   _/`\    {get_uptime()}
 \___)-(___/
-
 
 {USER_HOST}
 """

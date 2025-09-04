@@ -3,16 +3,35 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "setch"
+name = "setch-py"
 version = "1.0.0"
 requires-python = ">=3.10"
+authors = [{ name = "mentiferous" }]
 description = "A utility for retrieving system information on Linux"
 readme = "README.md"
 license = "GPL-3.0-or-later"
-keywords = ["Linux", "Utility", "Information"]
+keywords = ["setch", "linux", "utility"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Topic :: Utilities",
+]
 
 [project.urls]
-repository = "https://github.com/mentiferous/setch"
+Source = "https://github.com/mentiferous/setch.git"
 
 [tool.isort]
 profile = "black"
