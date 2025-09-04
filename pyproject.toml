@@ -37,7 +37,7 @@ Source = "https://github.com/mentiferous/setch.git"
 setch = "setch.__main__:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["setch"]
+packages = ["src/setch"]
 
 [tool.isort]
 profile = "black"
