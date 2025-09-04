@@ -1,4 +1,6 @@
-![setch banner](/assets/images/banner.png)
+# setch
+
+![banner](/assets/images/banner.svg)
 
 ## License
 
