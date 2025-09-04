@@ -33,8 +33,11 @@ classifiers = [
 [project.urls]
 Source = "https://github.com/mentiferous/setch.git"
 
+[project.scripts]
+setch = "setch.__main__:main"
+
 [tool.hatch.build.targets.wheel]
-packages = ["src/setch"]
+packages = ["setch"]
 
 [tool.isort]
 profile = "black"
