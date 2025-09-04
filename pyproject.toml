@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "setch-py"
-version = "1.0.1"
+version = "1.0.2"
 requires-python = ">=3.10"
 authors = [{ name = "mentiferous" }]
 description = "A utility for retrieving system information on Linux"
