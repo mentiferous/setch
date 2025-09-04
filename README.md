@@ -1,6 +1,10 @@
 # setch
 
-![banner](/assets/images/banner.svg)
+![banner](https://raw.githubusercontent.com/mentiferous/setch/refs/heads/main/assets/images/banner.svg)
+
+## Installation
+
+### Prerequisites
 
 ## License
 
