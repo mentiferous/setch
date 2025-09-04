@@ -1,30 +1,5 @@
-<div align="center">
-<h1>setch</h1>
-<p>A utility for retrieving system information on Linux</p>
-<img src="assets/images/setch.png">
-</div>
-
-## Installation
-
-### Prerequisites
-
-- [git](https://git-scm.com/downloads/linux)
-- Python 3.10 or later
-
-```sh
-git clone https://github.com/mentiferous/setch.git
-```
-
-```sh
-cd setch/src
-```
-
-## Usage
-
-```sh
-python -m setch
-```
+![setch banner](/assets/images/banner.png)
 
 ## License
 
-[GNU General Public License v3.0 or later](LICENSE)
+[GNU General Public License v3.0 or later](https://github.com/mentiferous/setch/blob/main/LICENSE)
