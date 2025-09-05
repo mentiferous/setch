@@ -12,8 +12,6 @@
 - Python >= 3.10
 - [pipx](https://pipx.pypa.io/stable/installation/#on-linux)
 
-Install with pipx
-
 ```sh
 pipx install setch-py
 ```
