@@ -4,6 +4,7 @@
 [![PyPI - License](https://img.shields.io/pypi/l/setch-py?style=social)](https://github.com/mentiferous/setch/blob/main/LICENSE)
 
 ![banner](https://raw.githubusercontent.com/mentiferous/setch/refs/heads/main/assets/images/banner.svg)
+![setch](https://raw.githubusercontent.com/mentiferous/setch/refs/heads/main/assets/images/setch.png)
 
 ## Installation
 
