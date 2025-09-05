@@ -1,6 +1,7 @@
 # setch
 
-![PyPI - Version](https://img.shields.io/pypi/v/setch-py) ![PyPI - License](https://img.shields.io/pypi/l/setch-py)
+[![PyPI - Version](https://img.shields.io/pypi/v/setch-py?style=social)](https://pypi.org/project/setch-py/)
+[![PyPI - License](https://img.shields.io/pypi/l/setch-py?style=social)](https://github.com/mentiferous/setch/blob/main/LICENSE)
 
 ![banner](https://raw.githubusercontent.com/mentiferous/setch/refs/heads/main/assets/images/banner.svg)
 
@@ -9,18 +10,24 @@
 ### Prerequisites
 
 - Python >= 3.10
-- [pip](https://pip.pypa.io/en/stable/installation/)
+- [pipx](https://pipx.pypa.io/stable/installation/#on-linux)
 
-Install with pip
+Install with pipx
 
 ```sh
-python -m pip install setch-py
+pipx install setch-py
 ```
 
 ## Usage
 
 ```sh
-python -m setch
+setch
+```
+
+## Uninstall
+
+```sh
+pipx uninstall setch-py
 ```
 
 ## License
