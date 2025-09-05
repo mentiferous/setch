@@ -40,4 +40,4 @@ def main():
     """Main function for setch."""
     if not sys_check():
         sys.exit("[!] Your system is incompatible with setch")
-    print(SETCH)
+    print(SETCH.strip("\n"))
