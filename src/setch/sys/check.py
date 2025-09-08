@@ -29,4 +29,5 @@ def sys_check():
     Returns:
         bool: Returns True if the system is Linux, otherwise False.
     """
+
     return LINUX
