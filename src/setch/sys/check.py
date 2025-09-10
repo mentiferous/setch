@@ -24,10 +24,6 @@ LINUX = system().startswith("Linux")
 
 
 def sys_check():
-    """Check if the system is Linux.
-
-    Returns:
-        bool: Returns True if the system is Linux, otherwise False.
-    """
+    """Check if the system is Linux."""
 
     return LINUX
