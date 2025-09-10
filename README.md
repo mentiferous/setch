@@ -1,7 +1,7 @@
 # setch
 
-![PyPI - Version](https://img.shields.io/pypi/v/setch-py?pypiBaseUrl=https%3A%2F%2Fpypi.org&style=for-the-badge&logo=pypi&logoColor=%23ffffff&labelColor=%230f0f0f&color=%230f0f0f)
-![PyPI - License](https://img.shields.io/pypi/l/setch-py?pypiBaseUrl=https%3A%2F%2Fpypi.org&style=for-the-badge&label=gplv3&labelColor=%230f0f0f&color=%230f0f0f)
+![PyPI - Version](https://img.shields.io/pypi/v/setch-py?pypiBaseUrl=https%3A%2F%2Fpypi.org&style=for-the-badge&logo=pypi&logoColor=%23ffffff&labelColor=%230f0f0f&color=%230f0f0f&link=https%3A%2F%2Fpypi.org%2Fproject%2Fsetch-py)
+![PyPI - License](https://img.shields.io/pypi/l/setch-py?pypiBaseUrl=https%3A%2F%2Fpypi.org&style=for-the-badge&logo=gplv3&logoColor=%23ffffff&logoSize=auto&labelColor=%230f0f0f&color=%230f0f0f&link=https%3A%2F%2Fgithub.com%2Fmentiferous%2Fsetch%2Fblob%2Fmain%2FLICENSE)
 
 ![banner](https://raw.githubusercontent.com/mentiferous/setch/refs/heads/main/assets/images/banner.svg)
 
