@@ -20,10 +20,8 @@
 
 from platform import system
 
-LINUX = system().startswith("Linux")
-
 
 def sys_check():
     """Check if the system is Linux."""
 
-    return LINUX
+    return system().startswith("Linux")

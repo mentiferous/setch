@@ -39,4 +39,5 @@ SETCH = rf"""
 def main():
     if not sys_check():
         sys.exit("[!] Your system is incompatible with setch")
+
     print(SETCH.strip("\n"))
