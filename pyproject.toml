@@ -10,7 +10,7 @@ authors = [{ name = "mentiferous" }]
 description = "A utility for retrieving system information on Linux"
 readme = "README.md"
 license = "GPL-3.0-or-later"
-keywords = ["setch", "linux", "utility"]
+keywords = ["setch", "setch-py", "linux", "utility"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Environment :: Console",
