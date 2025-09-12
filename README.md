@@ -15,7 +15,6 @@
 \___)-(___/
 
 admin@laptop
->
 ```
 
 ## Installation
