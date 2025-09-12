@@ -5,17 +5,7 @@
 
 [![Banner](https://raw.githubusercontent.com/mentiferous/setch/refs/heads/main/assets/images/banner.svg)](https://github.com/mentiferous/setch)
 
-```text
-    .--.
-   |o_o |      Arch Linux x86_64
-   |\_/ |
-  //   \ \     6.16.7-arch1-1
- (|     | )
-/`\_   _/`\    6 minutes
-\___)-(___/
-
-admin@laptop
-```
+[![Preview]()](https://github.com/mentiferous/setch)
 
 ## Installation
 
