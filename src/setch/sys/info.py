@@ -20,7 +20,7 @@
 
 from getpass import getuser
 from platform import freedesktop_os_release, machine, node, release
-from subprocess import run
+from subprocess import CalledProcessError, check_output
 
 # Get username and hostname
 try:
@@ -43,5 +43,9 @@ KERNEL_VER = release() or "Unknown kernel version"
 def get_uptime():
     """Gets the system uptime."""
 
-    uptime = run(["uptime", "-p"], capture_output=True, text=True)
-    return uptime.stdout.removeprefix("up ").strip()
+    try:
+        uptime = check_output(["uptime", "-p"], text=True)
+        return uptime.removeprefix("up ").strip()
+
+    except (FileNotFoundError, CalledProcessError):
+        return "Unknown uptime"
