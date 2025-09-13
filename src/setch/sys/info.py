@@ -44,8 +44,4 @@ def get_uptime():
     """Get the system uptime."""
 
     uptime = run(["uptime", "-p"], capture_output=True, text=True)
-
-    if uptime == "up 0 minute":
-        return ""
-
     return uptime.stdout.removeprefix("up ").strip()
