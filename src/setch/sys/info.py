@@ -41,7 +41,11 @@ KERNEL_VER = release() or "Unknown kernel version"
 
 
 def get_uptime():
-    """Get system uptime."""
+    """Get the system uptime."""
 
     uptime = run(["uptime", "-p"], capture_output=True, text=True)
-    return uptime.stdout.strip()[3:]
+
+    if uptime == "up 0 minute":
+        return ""
+
+    return uptime.stdout.removeprefix("up ").strip()
