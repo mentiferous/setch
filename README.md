@@ -5,7 +5,7 @@
 
 ![Banner](https://raw.githubusercontent.com/mentiferous/setch/refs/heads/main/assets/images/banner.png)
 
-![Preview]()
+![Preview](https://raw.githubusercontent.com/mentiferous/setch/refs/heads/main/assets/images/preview.png)
 
 ## Installation
 
