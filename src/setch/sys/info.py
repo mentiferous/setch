@@ -25,15 +25,19 @@ from subprocess import CalledProcessError, check_output
 # Get username and hostname
 try:
     USER = getuser()
+
 except OSError:
     USER = "Unknown username"
 
 HOST = node() or "Unknown hostname"
+
 USER_HOST = f"{USER}@{HOST}"
 
 # Get OS and architecture
 OS = freedesktop_os_release().get("PRETTY_NAME", "Unknown OS")
+
 ARCH = machine() or "Unknown architecture"
+
 OS_ARCH = f"{OS} {ARCH}"
 
 # Get kernel version
