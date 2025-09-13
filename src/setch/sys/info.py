@@ -22,7 +22,7 @@ from getpass import getuser
 from platform import freedesktop_os_release, machine, node, release
 from subprocess import run
 
-# Get the system's username and hostname
+# Get username and hostname
 try:
     USER = getuser()
 except OSError:
@@ -31,12 +31,12 @@ except OSError:
 HOST = node() or "Unknown hostname"
 USER_HOST = f"{USER}@{HOST}"
 
-# Get the system's OS and architecture
+# Get OS and architecture
 OS = freedesktop_os_release().get("PRETTY_NAME", "Unknown OS")
 ARCH = machine() or "Unknown architecture"
 OS_ARCH = f"{OS} {ARCH}"
 
-# Get the system's kernel version
+# Get kernel version
 KERNEL_VER = release() or "Unknown kernel version"
 
 
