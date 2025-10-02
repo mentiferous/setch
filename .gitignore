@@ -1,4 +1,4 @@
-# Ignore bytecode-cache folders
+# Ignore bytecode-cache folder
 __pycache__/
 
 # Ignore distribution folder
