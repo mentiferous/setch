@@ -18,9 +18,15 @@
 
 """info.py - Get system information."""
 
+import sys
 from getpass import getuser
 from platform import freedesktop_os_release, machine, node, release
 from subprocess import CalledProcessError, check_output
+
+from setch.sys.check import sys_check
+
+if not sys_check():
+    sys.exit("[!] Your system is incompatible with setch")
 
 # Get username and hostname
 try:
