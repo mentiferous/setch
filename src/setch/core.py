@@ -19,7 +19,7 @@
 import sys
 
 from setch.sys.check import sys_check
-from setch.sys.info import KERNEL_VER, OS_ARCH, SETCH, USER_HOST, get_uptime
+from setch.sys.info import SETCH
 
 
 def main():
