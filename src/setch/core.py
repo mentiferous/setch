@@ -19,19 +19,7 @@
 import sys
 
 from setch.sys.check import sys_check
-from setch.sys.info import KERNEL_VER, OS_ARCH, USER_HOST, get_uptime
-
-SETCH = rf"""
-    .--.
-   |o_o |      {OS_ARCH}
-   |\_/ |
-  //   \ \     {KERNEL_VER}
- (|     | )
-/`\_   _/`\    {get_uptime()}
-\___)-(___/
-
-{USER_HOST}
-"""
+from setch.sys.info import KERNEL_VER, OS_ARCH, SETCH, USER_HOST, get_uptime
 
 
 def main():

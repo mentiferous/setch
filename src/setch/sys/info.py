@@ -53,3 +53,16 @@ def get_uptime():
 
     except (FileNotFoundError, CalledProcessError):
         return "Unknown uptime"
+
+
+SETCH = rf"""
+    .--.
+   |o_o |      {OS_ARCH}
+   |\_/ |
+  //   \ \     {KERNEL_VER}
+ (|     | )
+/`\_   _/`\    {get_uptime()}
+\___)-(___/
+
+{USER_HOST}
+"""
