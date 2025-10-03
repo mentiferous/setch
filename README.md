@@ -10,7 +10,7 @@ Utility for retrieving system information on Linux
 ### Prerequisites
 
 - Python >= 3.10
-- [pipx](https://pipx.pypa.io/stable/installation/#on-linux)
+- [pipx](https://pipx.pypa.io/stable/installation)
 
 ```sh
 pipx install setch-py
