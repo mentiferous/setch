@@ -16,14 +16,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>
 
-import sys
-
-from setch.sys.check import sys_check
-from setch.sys.info import SETCH
+from setch.sys.info import setch
 
 
 def main():
-    if not sys_check():
-        sys.exit("[!] Your system is incompatible with setch")
-
-    print(SETCH.strip("\n"))
+    print(setch)

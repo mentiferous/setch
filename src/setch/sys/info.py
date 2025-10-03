@@ -61,7 +61,7 @@ def get_uptime():
         return "Unknown uptime"
 
 
-SETCH = rf"""
+setch = rf"""
     .--.
    |o_o |      {OS_ARCH}
    |\_/ |
@@ -71,4 +71,6 @@ SETCH = rf"""
 \___)-(___/
 
 {USER_HOST}
-"""
+""".strip(
+    "\n"
+)
