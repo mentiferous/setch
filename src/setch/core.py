@@ -16,8 +16,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>
 
-"""core.py - Main module for setch."""
-
 import sys
 
 from setch.sys.check import sys_check

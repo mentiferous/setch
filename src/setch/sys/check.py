@@ -16,12 +16,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>
 
-"""check.py - Module for checking if the system is Linux."""
+"""check.py - Check if the system is Linux."""
 
 from platform import system
 
 
 def sys_check():
-    """Check if the system is Linux."""
-
-    return system().startswith("Linux")
+    return system() == "Linux"

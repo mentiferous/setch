@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
+dynamic = ["version"]
 name = "setch-py"
-version = "1.0.4"
 requires-python = ">=3.10"
 authors = [{ name = "mentiferous" }]
 description = "Utility for retrieving system information on Linux"
