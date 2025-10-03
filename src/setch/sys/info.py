@@ -16,7 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>
 
-"""info.py - Module for getting system information."""
+"""info.py - Get system information."""
 
 from getpass import getuser
 from platform import freedesktop_os_release, machine, node, release
@@ -45,7 +45,7 @@ KERNEL_VER = release() or "Unknown kernel version"
 
 
 def get_uptime():
-    """Gets the system uptime."""
+    """Gets system uptime."""
 
     try:
         uptime = check_output(["uptime", "-p"], text=True)
